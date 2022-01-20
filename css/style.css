@@ -5,9 +5,9 @@
 }
 
 .clearfix::after{
-    content: "";
+	content: "";
     display: table;
-    clear: both; 
+    clear: both;
 }
 
 #container{
@@ -16,8 +16,8 @@
 }
 
 .title{
-    background-color: #e579e6;
     height: 150px;
+    background-color: #e579e6;
 }
 
 .banner{
@@ -30,39 +30,32 @@
 }
 
 main{
-    background-color: #abcfe7;
+    background-color: #0086ff;
+    margin-bottom: 10px;
 }
 
 .header-main{
     height: 150px;
-    border-bottom:solid 30px #0086ff;
+    background-color: #abcfe7;
+}
+
+aside, .parte-centrale {
+    height: 800px;
+    background-color: #abcfe7;
+    margin: 15px 0;
+    float: left;
+}
+
+aside{
+    width: calc((1800px - 1100px - 30px) /2);
 }
 
 .parte-centrale{
-    height: 800px;
     width: 1100px;
-    float: left;
-    border-bottom: 30px solid #0086ff;
-    border-left: 25px solid #0086ff;
-    border-right: 25px solid #0086ff;
- }
-
-aside{
-    height: 800px;
-    width: calc((1800px - 1100px) / 2);
-    border-bottom:solid 30px #0086ff;
-}
-
-.aside-right{
-    float: left;
-}
-
-.aside-left{
-    float: left;
+    margin: 15px;
 }
 
 #contact{
     height: 80px;
     background-color: #8801fe;
-    margin-top: 10px;
 }
